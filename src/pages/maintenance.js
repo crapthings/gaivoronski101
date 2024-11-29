@@ -15,14 +15,16 @@ function Maintenance () {
         style={{
           position: 'absolute',
           width: '100%',
-          height: '100%'
+          height: '100%',
+          objectFit: 'cover'
         }}
       />
 
       <div style={{
         position: 'absolute',
         color: 'white',
-        fontSize: '4em'
+        fontSize: '2em',
+        padding: '16px'
       }}>
         <p>
           我们的网站正在进行维护。<br />
